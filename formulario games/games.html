@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Registro - Jogos Online</title>
+<link rel="stylesheet" href="style.css">
+</style>
+</head>
+
+<body>
+    
+   
+<div class="caixa">
+  <div class="container">
+    <h1>Registro de Jogador</h1>
+    <form>
+      <label for="username">Nome de Usuário:</label>
+      <input type="text" id="username" name="username" placeholder="Digite seu nome:" required>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu e-mail:" required>
+
+      <label for="birthdate">Data de Nascimento:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+      <br><br>
+      <label for="game">Jogo Favorito:</label>
+      <select id="game" name="game">
+        <option value="lol">League of Legends</option>
+        <option value="fortnite">Fortnite</option>
+        <option value="minecraft">Minecraft</option>
+        <option value="csgo">CS:GO</option>
+        <option value="ow">Overwatch</option>
+      </select><br>
+      <br><br>
+      
+      <label for="time">Horário:</label><br>
+     <input type="time" name="time" id="time"><br><br><br>
+
+     <label for="sexualidade">Gênero:</label>
+
+     <label for="sexualidade">Masculino
+     <input type="radio" name="genero" id="genero">
+      </label>
+
+      <label for="sexualidade">Feminino
+      <input type="radio" name="genero" id="genero">
+    </label><br><br>
+
+     <label for="preferences">Preferências de Estilos de Jogo:</label>
+     <br><br>
+
+    
+     <label for="tipos">Ação
+        <input type="checkbox" id="tipo" name="tipo">
+     </label>
+
+    
+     <label for="tipos">Aventura
+        <input type="checkbox" id="tipo" name="tipo">
+     </label>
+
+  
+     <label for="tipos">Estratégia
+        <input type="checkbox" id="tipo" name="tipo">
+     </label>
+
+     
+     <label for="tipos">Terror
+        <input type="checkbox" id="tipo" name="tipo">
+     </label>
+
+
+     <label for="tipos">Esporte
+        <input type="checkbox" id="tipo" name="tipo">
+     </label>
+
+  
+     <label for="tipos">Corrida
+        <input type="checkbox" id="tipo" name="tipo">
+     </label>
+
+     
+     <label for="tipos">RPG
+        <input type="checkbox" id="tipo" name="tipo">
+     </label>
+
+    
+     <label for="tipos">Simulação
+        <input type="checkbox" id="tipo" name="tipo">
+     </label>
+
+     <br><br>
+
+     <legend>comentário:</legend><br>
+     <textarea placeholder="Deixe aqui seu comentario:" name="comentario" id="comentario" cols="30" rows="10"></textarea> <br><br><br>
+
+     <label for="cor">Cores:
+      <input type="color" id="cor" name="cor">
+
+     </label><br><br>
+
+      <label for="password">Senha:</label>
+      <input type="password" id="senha" name="senha" placeholder="Digite sua senha:"  required>
+      <br><br>
+      <button type="submit">Registrar</button>
+
+    </form>
+
+    
+  </div>
+
+  <img src="unnamed.png" alt="imagem controle">
+</div>
+</body>
+</html>
